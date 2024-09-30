@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Développeur</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .introduction {
+            padding: 50px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div id="introduction" class="introduction"></div>
+</div>
+
+<script>
+    async function loadPortfolio() {
+        try {
+            const response = await fetch('src/json/portfolio.json');
+            const data = await response.json();
+
+            const homepage = data.portfolio.homepage;
+            const introDiv = document.getElementById('introduction');
+
+            introDiv.innerHTML = `
+                <h1>${homepage.title}</h1>
+                <img src="${homepage.introduction.photo}" alt="Photo de profil">
+                <p>${homepage.introduction.summary}</p>
+                <a href="#">${homepage.introduction.cta}</a>
+                <div class="contact-links">
+                    <a href="${homepage.contact_button.links.email}">Email</a>
+                    <a href="${homepage.contact_button.links.linkedin}">LinkedIn</a>
+                    <a href="${homepage.contact_button.links.github}">GitHub</a>
+                </div>
+            `;
+        } catch (error) {
+            console.error("Erreur de chargement des données JSON :", error);
+        }
+    }
+
+    loadPortfolio();
+</script>
+
+</body>
+</html>

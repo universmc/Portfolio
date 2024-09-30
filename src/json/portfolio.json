@@ -1,0 +1,176 @@
+{
+  "portfolio": {
+    "homepage": {
+      "title": "Bienvenue sur mon Portfolio de Développeur Web Fullstack et Machine Learning",
+      "introduction": {
+        "summary": "Je suis un développeur Web fullstack avec une expertise en machine learning et intelligence artificielle. Découvrez mon parcours, mes projets et mes compétences.",
+        "photo": "url_de_la_photo.jpg",
+        "cta": "Découvrez mes projets"
+      },
+      "contact_button": {
+        "text": "Contactez-moi",
+        "links": {
+          "email": "mailto:tonemail@example.com",
+          "linkedin": "https://linkedin.com/in/tonprofil",
+          "github": "https://github.com/universmc"
+        }
+      }
+    },
+    "about_me": {
+      "biography": "Je suis un passionné du développement web et de l'intelligence artificielle. Depuis mes débuts avec HTML/CSS, j'ai progressé vers le fullstack et l'IA.",
+      "skills": [
+        {
+          "category": "Langages",
+          "items": ["HTML", "CSS", "JavaScript", "PHP", "Python", "Shell"]
+        },
+        {
+          "category": "Frameworks",
+          "items": ["React", "Next.js", "Electron"]
+        },
+        {
+          "category": "IA/ML",
+          "items": ["TensorFlow", "Keras", "Groq-SDK", "GPT", "LLaMA"]
+        },
+        {
+          "category": "Outils",
+          "items": ["Git", "Docker", "Kubernetes"]
+        }
+      ],
+      "certifications": [
+        {
+          "title": "Google Developer Certification",
+          "date": "2023"
+        },
+        {
+          "title": "Machine Learning TensorFlow",
+          "date": "2022"
+        }
+      ]
+    },
+    "timeline": {
+      "events": [
+        {
+          "date": "2015",
+          "description": "Début du développement front-end avec HTML/CSS."
+        },
+        {
+          "date": "2016",
+          "description": "Apprentissage de PHP et MySQL pour le développement back-end."
+        },
+        {
+          "date": "2017",
+          "description": "Découverte de Python et Shell pour l'automatisation."
+        },
+        {
+          "date": "2018",
+          "description": "Progression vers JavaScript et SCSS pour des interfaces interactives."
+        },
+        {
+          "date": "2019",
+          "description": "Utilisation de Node.js, Electron, React pour des applications web complexes."
+        },
+        {
+          "date": "2021",
+          "description": "Exploration du Machine Learning et de l'IA avec TensorFlow et GPT."
+        }
+      ]
+    },
+    "projects": {
+      "short_term": [
+        {
+          "name": "Bot de discussion GPT",
+          "description": "Développement d'un bot conversationnel avec GPT et Node.js.",
+          "technologies": ["GPT", "Node.js", "API REST"],
+          "code_link": "https://github.com/universmc/bot-gpt"
+        },
+        {
+          "name": "API REST asynchrone",
+          "description": "API REST avec des fonctionnalités asynchrones en Node.js.",
+          "technologies": ["Node.js", "JavaScript", "API"],
+          "code_link": "https://github.com/universmc/api-rest"
+        }
+      ],
+      "medium_term": [
+        {
+          "name": "Application Electron",
+          "description": "Création d'une application de gestion de tâches avec Electron.",
+          "technologies": ["Electron", "JavaScript", "Node.js"],
+          "code_link": "https://github.com/universmc/app-electron"
+        }
+      ],
+      "long_term": [
+        {
+          "name": "Projet Machine Learning",
+          "description": "Système de prédiction avec TensorFlow et Keras pour l'optimisation.",
+          "technologies": ["TensorFlow", "Keras", "Python"],
+          "code_link": "https://github.com/universmc/ml-project"
+        },
+        {
+          "name": "Botnet d'intelligence artificielle",
+          "description": "Réseau de bots conversationnels interconnectés pour automatisation.",
+          "technologies": ["GPT", "Node.js", "Groq-SDK"],
+          "code_link": "https://github.com/universmc/botnet-ia"
+        }
+      ]
+    },
+    "blog": {
+      "articles": [
+        {
+          "title": "Comment utiliser TensorFlow pour un projet de machine learning",
+          "link": "https://wp.univers-mc.cloud/tensorflow-tutorial",
+          "date": "2023-09-15"
+        },
+        {
+          "title": "Étude de cas : Création d'une application React",
+          "link": "https://wp.univers-mc.cloud/react-app-case-study",
+          "date": "2023-09-10"
+        }
+      ]
+    },
+    "skills": {
+      "categories": [
+        {
+          "name": "Front-end",
+          "skills": ["HTML", "CSS", "SCSS"]
+        },
+        {
+          "name": "Back-end",
+          "skills": ["Node.js", "PHP", "SQL", "Python"]
+        },
+        {
+          "name": "DevOps",
+          "skills": ["Shell", "Docker", "Kubernetes"]
+        },
+        {
+          "name": "Machine Learning",
+          "skills": ["TensorFlow", "GPT", "Groq-SDK"]
+        }
+      ]
+    },
+    "contact": {
+      "form": {
+        "fields": ["name", "email", "message"],
+        "submit_button": "Envoyer"
+      },
+      "social_links": {
+        "github": "https://github.com/universmc",
+        "google_dev": "https://g.dev/universmc",
+        "linkedin": "https://linkedin.com/in/tonprofil"
+      }
+    },
+    "downloads": {
+      "cv_link": "https://univers-mc.cloud/cv.pdf",
+      "documents": [
+        {
+          "title": "Projet open source : Machine Learning",
+          "link": "https://github.com/universmc/ml-open-source"
+        }
+      ]
+    },
+    "error_page": {
+      "title": "Page non trouvée (404)",
+      "description": "Désolé, la page que vous cherchez n'existe pas.",
+      "cta": "Retour à l'accueil"
+    }
+  }
+}
